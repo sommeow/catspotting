@@ -1,0 +1,40 @@
+html, * {
+    font-family: helvetica;
+    box-sizing: border-box;
+    /* background-color: #B09581; */
+  }
+  
+  body {
+    display: grid;
+    background-color: pink;
+
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 12vh;
+    background-color: #E6A33A;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+
+  h4 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+  }
+
+  .pixlConImg {
+    display: block;
+    margin: auto;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }

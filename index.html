@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catspotting Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+    <script defer src="/js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CATSPOTTING</h1>
+        <h4>The Game</h4>
+    </header>
+
+    <img class="pixlConImg" src="assets/imgs/where-cat-image-2nd-adjusted.jpg" usemap="#pixl-con">
+    <map name="pixl-con">
+        <area onclick="foundCat" alt="nyan cat" coords="160,382,187,402" shape="rect" href="javascript:clicked_on('rectangle');">
+        <area onclick="foundCat" alt="cry cat" coords="1062,333,1130,366" shape="rect" href="javascript:clicked_on('rectangle');">
+        <area onclick="foundCat" alt="grumpy cat" coords="867,743,924,795" shape="rect" href="javascript:clicked_on('rectangle');">
+        <area onclick="foundCat" alt="pusheen cat" coords="942,70,1000,121" shape="rect" href="javascript:clicked_on('rectangle');">
+        <area onclick="foundCat" alt="jiji cat" coords="372,852,430,945" shape="rect" href="javascript:clicked_on('rectangle');">
+    </map>
+
+    <footer>Paw-made by Somjit Pimson</footer>
+</body>
+</html>

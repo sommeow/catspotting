@@ -21,7 +21,7 @@ function findCatYet(evt) {
   x = evt.pageX;
   y = evt.pageY;
   params = 'xpos=' + (x - evt.target.offsetLeft) + '&ypos=' + (y - evt.target.offsetTop);
-  sendRequest('POST', 'assets/coord-bridge.php', params, showResponse);
+  sendRequest('POST', 'script/coord-bridge.php', params, showResponse);
 };
 
 function sendRequest(method, phpFile, params, afterLoad) {

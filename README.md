@@ -3,8 +3,8 @@
 # Catspotting The Game
 
 ## Technologies Used:
-  -HTML, CSS, JavaScript
-  -PHP
+  - HTML, CSS, JavaScript
+  - PHP
 
 ## Link to Play
 ### https://sommeow.github.io/catspotting/
@@ -13,8 +13,8 @@
  Find 5 of Pop Culture's most iconic cats: Nyan Cat, Crying Cat, Grumpy Cat, Pusheen Cat, and Jiji the cat from Hayao Miyazaki's "Kiki's Delivery"
 
 ## Future Enhancements
-  +Timer
-  +Randomized location of cats
-  +Additional game boards 
-  +Sound effects
-  +Zoom effect of game boards
+  + Timer
+  + Randomized location of cats
+  + Additional game boards 
+  + Sound effects
+  + Zoom effect of game boards

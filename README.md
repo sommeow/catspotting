@@ -4,7 +4,9 @@
 
 ## Technologies Used:
   - HTML, CSS, JavaScript
-  - PHP
+  - PHP, CSV
+  - GIMP
+  - Google
 
 ## Link to Play
 ### https://sommeow.github.io/catspotting/
